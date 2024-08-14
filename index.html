@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geomattris Triangle Resourse</title>
+    <!-- daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="m-8">
+    <!-- Header Start -->
+    <header>
+
+    </header>
+    <!-- Main Part -->
+    <main>
+        <div class="flex flex-col md:flex-row gap-4  grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <div class=" flex-1">
+                <div class="card card-compact bg-base-100 w-76 shadow-xl">
+                    <figure>
+                        <img src="images/triangle.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Triangle</h2>
+                        <div class="">
+                            <p class="text-center text-3xl">Area (A) =
+                                0.5 b
+                                h</p>
+                            <input id="triangle-base" class="w-24 border-2 border-black text-2xl p-2 rounded-sm" type="text "
+                                placeholder="b" name="" id="">
+                            <span>cm</span>
+                            <input id="triangle-height" class="w-24 border-2 border-black text-2xl p-2 rounded-sm" type="text "
+                                placeholder="h">
+                            <span>cm</span>
+                            <div>
+                                <p class="text-2xl">Area: <span id="triangle-area"><span>cm<sup>2</sup></span></span></p>
+                            </div>
+                        </div>
+
+                        <div class="card-actions ">
+                            <button onclick="calculateTriangleArea()" class="btn w-full btn-primary">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="card card-compact bg-base-100 w-76 shadow-xl">
+                    <figure>
+                        <img src="images/rhombus.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Parallelogram</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="card card-compact bg-base-100 w-76 shadow-xl">
+                    <figure>
+                        <img src="images/rectangle.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Rectangle</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="card card-compact bg-base-100 w-76 shadow-xl">
+                    <figure>
+                        <img src="images/pentagon.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Shoes!</h2>
+                        <p>Area (A) =
+                            0.5 b
+                            h</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-96 border-2 border-gray-700 rounded">
+                <h3 class="text-3xl text-center p-4">Area Calculation</h3>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="Scprit/triangleCulculate.js"></script>
+</body>
+
+</html>
